@@ -1,3 +1,7 @@
+.result {
+	text-content: center;
+}
+
 .grid {
 	width: 300px;
 	height: 300px;
