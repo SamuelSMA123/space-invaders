@@ -19,11 +19,14 @@ h1 {
 	border: solid black 1px;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
+  	align-items: center;
 }
 
 .grid div {
 	margin: auto;
 	justify-content: center;
+  	align-items: center;
 	width: 20px;
 	height: 20px;
 }
