@@ -83,12 +83,12 @@ function moveInvaders() {
     draw()
 
     if (squares[currentShooterIndex].classList.contains("invader")) {
-        resultDisplay.innerHTML = "GAME OVER"
+        resultDisplay.innerHTML = "PERDISTE!!! :C"
         clearInterval(invadersId)
     }
 
     if (aliensRemoved.length === alienInvaders.length) {
-        resultDisplay.innerHTML = "YOU WIN"
+        resultDisplay.innerHTML = "GANASTE!!! :D"
         clearInterval(invadersId)
     }
 }
