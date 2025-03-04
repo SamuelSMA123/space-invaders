@@ -1,16 +1,16 @@
 body {
-	text-content: center;
+	text-align: center;
 }
 
 .result {
-	margin: center;
-	text-content: center;
+	margin: auto;
+	text-align: center;
 }
 
 h1 {
-    color: #FFFF00;
-    text-shadow: 2px 2px #FF0000;
-    font-size: 2em;
+	color: #FFFF00;
+	text-shadow: 2px 2px #FF0000;
+	font-size: 2em;
 }
 
 .grid {
@@ -22,6 +22,8 @@ h1 {
 }
 
 .grid div {
+	margin: auto;
+	justify-content: center;
 	width: 20px;
 	height: 20px;
 }
